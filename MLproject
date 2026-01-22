@@ -1,0 +1,7 @@
+name: CAISO_model
+
+python_env: python_env.yaml
+
+entry_points:
+  main:
+    command: "python CAISO.py"
