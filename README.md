@@ -43,6 +43,7 @@ You can now query the model using curl and the above address. In a _different te
 ```
 curl http://127.0.0.1:5000/invocations -H 'Content-Type: application/json' -d '{"dataframe_records":[{"Time":"2026-01-01T15:0:00Z"}]}'
 ```
+which will print the output: `{"predictions": [27.709061405555556]}`. 
 
 The above command explained:
 
