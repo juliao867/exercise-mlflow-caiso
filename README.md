@@ -14,6 +14,7 @@ pip install mlflow
 ```
 
 MLflow will be installed in a local environment associated with the current codespace.
+> Note: MLflow could also be listed in requirements.txt and installed automatically when the codespace is created. In this exercise, we install it manually to ensure the `mlflow` command is available without additional PATH configuration.
 
 Now let's have a look at the files in the Explorer tab. `CAISO.py` is the script you will use to run the model packaged in this project. Make sure you understand what it does. The files `custom_transformers.py` and `prepos.py` are simply helper files for preprocessing the data. 
 
