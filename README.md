@@ -5,9 +5,9 @@ day by taking hourly averages of the three days with highest average consumption
 
 With the help of this example you will learn how to use a real-world electricity load forecasting model packaged as an MLflow Project, how to log and save a model, and serve it locally as a REST API that can be queried.
 
-First click Use this template and then create a codespace for the project (click <> Code then Codespaces).
+First click **Use this template** and then **create a codespace** for the project (click <> Code then Codespaces).
 
-Once the codespace finished building, navigate to the terminal and install MLflow:
+Once the codespace finished building, navigate to the terminal and **install MLflow**:
 
 ```
 pip install mlflow
