@@ -1,11 +1,10 @@
 # CAISO MLflow model
 
-California ISO Model for load forecasting (CAISO): predicts the electricity load for the next
-day by taking hourly averages of the three days with highest average consumption value among a pool of ten previous days, excluding weekends, holidays, and past DR event days.
+In this exercise you will learn how to run an MLflow Project, train a CAISO load forecasting model, and serve it as a local REST API using MLflow. You will use real-world time series inputs and test predictions via HTTP requests.
 
-With the help of this example you will learn how to use a real-world electricity load forecasting model packaged as an MLflow Project, how to log and save a model, and serve it locally as a REST API that can be queried.
+> Note: CAISO (California ISO) is a model for load forecasting: it predicts the electricity load for the next day by taking hourly averages of the three days with highest average consumption value among a pool of ten previous days, excluding weekends, holidays, and past DR event days.
 
-First click **Use this template** and then **Open in a codespace**.
+To get started click **Use this template** and then **Open in a codespace**.
 
 Once the codespace finished building, navigate to the terminal and **install MLflow**:
 
@@ -22,7 +21,7 @@ The `MLproject` file gives MLflow instructions for how to run this project. In o
 
 When the project is ran it trains a CAISO model, logs training metrics, and saves the model as a python function.
 
-First, inside the terminal run the MLflow project with:
+First, in the terminal run the MLflow project with:
 
 ```
 mlflow run . --env-manager local
