@@ -30,7 +30,7 @@ mlflow run . --env-manager local
 
 Here we are telling MLflow that it should use the local environment. If you were running this code locally, on your machine, inside a conda environment, you wouldn't have to add `--env-manager local`, but simply run `mlflow run .` In this case you would need to make a change to the `MLproject` file - do you know what that is?
 
-Back to our example, the model should be trained and you should see in the terminal the MAE, r2 score, and that the model was successfully saved. You might notice a few new files and folders were created; for example the `model` contains the model (as a `.pkl` file) and the dependencies needed to create this model.
+Back to our example, the model should be trained and you should see in the terminal the MAE, r2 score, and that the model was successfully saved. You might notice a few new files and folders were created; for example the `model` folder contains the model (as a `.pkl` file) and the dependencies needed to create this model.
 
 We can now serve the model to test if it can generate new predictions. This is an important step before deployment. In the terminal type:
 
