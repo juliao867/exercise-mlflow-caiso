@@ -1,0 +1,12 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Time"
+    ],
+    "data": [
+      [
+        "2026-01-01T15:00:00Z"
+      ]
+    ]
+  }
+}
